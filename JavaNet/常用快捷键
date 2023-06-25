@@ -1,0 +1,30 @@
+1.添加包 ：Ctrl shift o 
+ * 2.添加代码块：alt shift z
+ * 3.javaBean: Alt shift s
+ * 4.全文某单词替换 :Ctrl f
+ * 5.new后添加前面代码体: Ctrl 1
+ * 6.查看包的地址 ：Alt enter
+ * 7.删除整行代码 Ctrl D
+ * 8.查看当前类的方法 ctrl O
+ 
+ 8.创建类：CTRL N
+ 
+Ctrl+Alt+↓ 复制当前行到下一行(复制增加)
+Ctrl+Alt+↑ 复制当前行到上一行(复制增加)
+Alt+↓ 当前行和下面一行交互位置(特别实用,可以省去先剪切,再粘贴了)
+Alt+↑ 当前行和上面一行交互位置(同上)
+Ctrl+Q 定位到最后编辑的地方
+Ctrl+L 定位在某行 (对于程序超过100的人就有福音了)
+Alt+Shift+R 重命名 
+Alt+Shift+C 修改函数结构(比较实用,有N个函数调用了这个方法,修改一次搞定)
+Alt+Shift+Z 重构的后悔药(Undo)
+ 
+ 
+ 1.查看所有端口 (cmd) netstat -ano
+ 2.查看指定端口：netstat -ano|findstr "808"
+ 3.查看指定进程：tasklist|findstr "808"
+ 
+ 1.cmd--> services.msc 打开服务
+ 2.mspaint 打开电脑画图
+ 
+ 1.cmd--》 ipconfig  查看IP配置

@@ -1,0 +1,32 @@
+package org.lanqiao.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+//模型层，处理登录(查询数据)
+public class LoginDao {
+	public void login() {
+		
+		try {
+			Class.forName("导入驱动类");
+			Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@127.0.0.1:1521:ORCL", "root", "root");
+			
+			String sql = "select count(*) from login where uname = ? and passward = ?";
+			PreparedStatement pstmt = connection.prepareStatement(sql);
+			pstmt.setString(1, "用户名");
+			pstmt.setString(2, "密码");
+			
+			pstmt.executeQuery()
+			
+		}catch(ClassNotFoundException e) {
+			e.printStackTrace();
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

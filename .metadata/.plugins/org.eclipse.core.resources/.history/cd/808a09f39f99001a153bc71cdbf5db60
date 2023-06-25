@@ -1,0 +1,12 @@
+package ReviewJava;
+
+import java.util.ArrayList;
+
+public class First {
+
+	public static void main(String[] args) {
+
+		new ArrayList<E>();
+	}
+
+}
